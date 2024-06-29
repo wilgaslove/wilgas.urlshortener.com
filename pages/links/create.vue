@@ -10,7 +10,8 @@
         <div >Lien Complet</div>
         <input type="text">
       </label>
-      <NuxtLink to="/links/edit" class="btn">Créer le lien</NuxtLink>
+      <!-- <NuxtLink to="/links/edit" class="btn">Créer le lien</NuxtLink> -->
+       <button class="btn">Créer le lien</button>
     </form>
   </div>
 </template>

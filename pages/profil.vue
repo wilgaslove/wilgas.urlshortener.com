@@ -1,6 +1,6 @@
 <template>
   <div>
-    je suis profil
+    <h1>Lines de: {{  }}</h1>
   </div>
 </template>
 
