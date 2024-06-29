@@ -83,13 +83,7 @@ async function register(payload: RegisterPayload, node: FormKitNode) {
   } 
     console.log("une erreur est survenue");
     
-  }
-  
- 
-   
-
-
- 
+  } 
 }
 </script>
 
