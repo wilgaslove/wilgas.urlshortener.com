@@ -1,7 +1,9 @@
 <template>
+
+  <AppHeader />
   <div class="mx-auto max-w-md prose">
 
-    <h1>Créez un lien</h1>
+    <h1>Modifiez un lien</h1>
 
     <GoBack />
   
