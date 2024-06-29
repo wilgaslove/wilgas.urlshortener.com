@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <AppHeader />
+  <div class="mx-[10%]">
     <nav class="flex justify-between items-center mb-4 prose min-w-full">
       <h1 class="mb-0">Mes liens</h1>
       <!-- //<SearchInput :modelValue="search"/> -->
