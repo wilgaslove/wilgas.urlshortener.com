@@ -8,11 +8,14 @@
 import axios from 'axios';
 
   definePageMeta({
-    layout: 'simple'
+    layout: 'simple',
   })
 
-  await axios.post('/logout');
-  useRouter().replace('/login')
+  onMounted(async () => {
+    await axios.post('/logout');
+    useRouter().replace('/login');
+  })
+
 </script>
 
 <style>

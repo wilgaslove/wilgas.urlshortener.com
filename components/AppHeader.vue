@@ -8,7 +8,7 @@
       <div class="space-x-3">
         <NuxtLink to="/me">Profil</NuxtLink>
         <NuxtLink to="/links">Liens</NuxtLink>
-        <NuxtLink to="#">
+        <NuxtLink to="/logout.vue">
           <Icon name="mdi:logout" />
         </NuxtLink>
       </div>
