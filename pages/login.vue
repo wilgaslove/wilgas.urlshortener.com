@@ -23,7 +23,7 @@
 
     <p class="text-red-600">
       Pas de compte ?
-      <NuxtLink class="uderline text-lime-600" to="/login">Inscrivez-Vous !</NuxtLink>
+      <NuxtLink class="uderline text-lime-600" to="/register">Inscrivez-Vous !</NuxtLink>
     </p>
   </div>
 </template>
