@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto max-w-md prose">
 
-    <h1>Modifier le lien</h1>
+    <h1>Créez un lien</h1>
 
     <GoBack />
   
@@ -14,7 +14,9 @@
         <div>Lien Complet</div>
         <input type="text">
       </label>
-      <button>Modifier le lien</button>
+      <NuxtLink to="/links/edit" class="btn">Modifier le lien</NuxtLink>
+    
+
     </form>
   </div>
 </template>
